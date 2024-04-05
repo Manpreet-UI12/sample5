@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recommendations</title>
+    <style>
+        /* Services Section */
+        #services {
+            margin: 34px;
+            display: flex;
+        }
+
+        #services .box {
+            border: 2px solid rgba(68, 216, 253, 0.521);
+            padding: 34px;
+            margin: 2px 55px;
+            border-radius: 28px;
+            background: white;
+            margin-bottom: 20px;
+        }
+
+        #services .box img {
+            border: 3px solid black;
+            height: 160px;
+            width: 150px;
+            margin: auto;
+            display: block;
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/rk.webp" alt="">
+                <h2 class="h-secondary center">Rupinder Khosla</h2>
+                <p class="center">Rupinder Khosla is a highly respected civil lawyer based in Chandigarh. With extensive
+                    experience in civil litigation, he is known for his meticulous approach to legal matters and
+                    dedication to his clients. Rupinder specializes in handling property disputes, contract law, and
+                    torts cases. He is recognized for his thorough understanding of the law and his ability to achieve
+                    favorable outcomes for his clients.</p>
+            </div>
+            <div class="box">
+                <img src="img/ms.jpg" alt="">
+                <h2 class="h-secondary center">Maninder Singh</h2>
+                <p class="center">Maninder Singh is a notable criminal lawyer based in Chandigarh. Renowned for his
+                    expertise in corporate law and criminal defense, he has represented numerous high-profile clients in
+                    complex legal matters. Singh is recognized for his strategic approach to cases and his ability to
+                    secure favorable outcomes for his clients. With extensive experience in the legal field, he is known
+                    for his professionalism and dedication to his clients' interests..</p>
+            </div>
+            <div class="box">
+                <img src="img/ng.jpeg" alt="">
+                <h2 class="h-secondary center">Neha Gupta</h2>
+                <p class="center">Neha Gupta is a corporate lawyer based in Chandigarh. With expertise in corporate law,
+                    she provides legal advice and representation to businesses on a wide range of matters, including
+                    corporate governance, mergers and acquisitions, contract negotiations, and regulatory compliance.
+                    Neha is known for her attention to detail, professionalism, and dedication to achieving favorable
+                    outcomes for her clients.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
